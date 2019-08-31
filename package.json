@@ -1,0 +1,16 @@
+{
+  "name": "electron-typescript-powermonitor-bug",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "devDependencies": {
+    "electron": "^6.0.7",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "build": "parcel build src/main.ts --target electron",
+    "start": "electron ."
+  },
+  "license": "MIT"
+}
